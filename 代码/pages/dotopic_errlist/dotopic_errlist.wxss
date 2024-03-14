@@ -1,0 +1,268 @@
+/* pages/xiaoxue1math/xiaoxue1math.wxss */
+.container1 {
+  min-height: 100vh;
+  background-color: #FEF3E1;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.add{
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  /* margin-top: 1vh;
+  margin-bottom: 1vh; */
+  position: relative; /* 相对relative也可以 */
+}
+.zhanwei{
+  height: 2.5vh;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  /* margin-top: 1vh;
+  margin-bottom: 1vh; */
+  position: relative; /* 相对relative也可以 */
+}
+
+.timuqu{
+  height: 82vh;
+}
+.tijiaoqu{
+  height: 8vh;
+  align-items: center;
+}
+.tijiequ{
+  height: 8vh;
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.question{
+  width: 80vw;
+  margin-left: 6vw;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  line-height: 4vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2.2vh;
+  font-weight: bold;
+  color:#3d3839;
+  letter-spacing: 1px;
+}
+.option{
+  width:80vw;
+  margin-top: 1vh;
+  margin-left: 3vw;
+  background-color: #FEF3E1;
+  border-radius: 2vh;
+  border: solid 0.5vw #F9C57A;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  line-height: 4vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2vh;
+  font-weight: bold;
+  color:#3d3839;
+  letter-spacing: 1px;
+}
+.option_cor{
+  width:80vw;
+  margin-top: 1vh;
+  margin-left: 3vw;
+  background-color: #ecfff6;
+  border-radius: 2vh;
+  border: solid 0.5vw #80D5AB;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  line-height: 4vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2vh;
+  font-weight: bold;
+  color:#3d3839;
+  letter-spacing: 1px;
+}
+.option_incor{
+  width:80vw;
+  margin-top: 1vh;
+  margin-left: 3vw;
+  background-color: #f8e3dd;
+  border-radius: 2vh;
+  border: solid 0.5vw #ea8f75;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  line-height: 4vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2vh;
+  font-weight: bold;
+  color:#3d3839;
+  letter-spacing: 1px;
+}
+
+.square{
+  width: 90vw;
+  height: 81vh;
+  margin-left: 3.5vw;
+  border-radius: 3vh;
+  background-color: #ea8f75;
+  border: solid 1vw #ea8f75;
+  color: rgba(16, 16, 16, 1);
+  display: flex;
+  flex-direction: column;
+}
+.jindu{
+  height: 4vh;
+  background-color: #ea8f75;
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
+  margin-top: -0.5vh;
+  border: solid 1vw #ea8f75;
+  padding-left: 4vh;
+  line-height: 4vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2vh;
+  font-weight: bold;
+  color:white;
+  letter-spacing: 0.5vw;
+}
+
+
+.wx-radio-input {
+  width: 32rpx !important;
+  height: 32rpx !important;
+  border-radius: 100%;
+  background-color: #fff !important;
+}
+
+.wx-radio-input.wx-radio-input-checked {
+  width: 32rpx !important;
+  height: 32rpx !important;
+  background-color: #00bcd4 !important;
+}
+
+.submit
+{
+  width: 50vw;
+  height: 7vh;
+  background-color: #80d5ab;
+  border-radius: 2vh;
+  margin-left: 25vw;
+  margin-top: 1vh;
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+  font-weight: bolder;
+  line-height: 7vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 1vw;
+}
+.tijie{
+  width: 50vw;
+  height: 7vh;
+  background-color: #80d5ab;
+  border-radius: 2vh;
+  margin-left: 25vw;
+  margin-top: 1vh;
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+  font-weight: bolder;
+  line-height: 5vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 1vw;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(3, 150, 3);
+  font-weight: 600;
+}
+
+.btn_root {
+  display: flex;
+  justify-content: space-around;
+  margin: 40rpx;
+  margin-top: 60rpx;
+}
+
+.correctAns {
+  width:80vw;
+  margin-top: 1vh;
+  margin-left: 3vw;
+  /* background-color: #FEF3E1; */
+  border-radius: 2vh;
+  /* border: solid 0.5vw #F9C57A; */
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  line-height: 4vh;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2.2vh;
+  font-weight: bold;
+  color:#3d3839;
+  letter-spacing: 1px;
+}
+
+.square1 {
+  left: 30rpx;
+  top: 376rpx;
+  width: 670rpx;
+  height: 850rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 35rpx;
+  text-decoration:underline;
+  box-shadow: 2rpx 2rpx 10rpx 2rpx rgba(214, 214, 214, 100);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 0, 0, 0);
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100rpx;
+}
+
+.square2
+{
+  left: 30rpx;
+  top: 376rpx;
+  width: 670rpx;
+  height: 950rpx;
+line-height: 40rpx;
+border-radius: 40rpx;
+background-color: rgba(255, 255, 255, 1);
+color: rgba(16, 16, 16, 1);
+font-size: 45rpx;
+box-shadow: 1px 1px 5px 1px rgba(214, 214, 214, 100);
+font-family: Arial;
+border: 2rpx solid rgba(255, 0, 0, 0);
+margin-left:40rpx;
+display: flex;
+flex-direction: column;
+margin-top: 30rpx;
+}
+
+.answer
+{
+  color:green;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 350rpx;
+}
+
+.button1
+{
+  margin-top: 50rpx;
+}

@@ -1,0 +1,36 @@
+<!--pages/translate_/translate_.wxml-->
+<view class="container">
+<view class = "content1">
+  <view class = "option">
+    <view class = "choose_language" >
+      <picker bindchange="PickerChange" value="{{index}}" range="{{picker}}" class="mistakes2">
+      <text class="language">（自动识别）</text>
+      <image src="right-arrow.svg" style="height: 2vh; width: 40rpx; margin-right: 10px; display: inline-block; box-sizing: border-box"></image>
+      <text class="language">{{language}}</text>
+      <image src="down-arrow.png" style="height: 10px; width: 10px; margin-left: 10px;"></image>
+      </picker>
+    </view>
+    <view class="inputshow">
+      <textarea maxlength='500' placeholder-style="color:#5F5F5F;" bindinput='limitWord' value="{{content}}" placeholder='请输入需要翻译的文本(最多可以输入500字)'  class="input_area"  style="width: 610rpx; height: 25vh; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+      </textarea>
+      <view style="width: 610rpx; height: 3vh; display: block; box-sizing: border-box">
+        <text style="float: right; color:#5f5f5f;">{{currentWord}}/{{maxWord}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="content1">
+    <button type="primary" bindtap="start_translate">
+      <text class="option_text" >点 击 翻 译</text>
+    </button>
+  </view>
+
+  <view class = "option">
+    <view style="display: block; text-overflow: ellipsis; word-wrap: break-word" class="inputshow" >
+      <scroll-view scroll-y="true">
+        <text user-select="true" class="result">{{translate_result}}</text>
+      </scroll-view>
+    </view>
+  </view>
+</view>
+</view>

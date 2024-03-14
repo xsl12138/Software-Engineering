@@ -1,0 +1,501 @@
+
+    {
+        "_id": "english_001",
+        "tiku": "english",
+        "tigan": "What's the meaning of 'helicopter' in Chinese?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "喷气飞机"
+            },
+            {
+                "code": "B",
+                "text": "直升机"
+            },
+            {
+                "code": "C",
+                "text": "火箭"
+            },
+            {
+                "code": "D",
+                "text": "游艇"
+            }
+        ],
+        "answer": "B",
+        "explanation": "helicopter的中文意思是直升机"
+    }
+    {
+        "_id": "english_002",
+        "tiku": "english",
+        "tigan": "How do you say '苹果' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "banana"
+            },
+            {
+                "code": "B",
+                "text": "orange"
+            },
+            {
+                "code": "C",
+                "text": "apple"
+            },
+            {
+                "code": "D",
+                "text": "pear"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'苹果'的英文是apple。"
+    }
+    {
+        "_id": "english_003",
+        "tiku": "english",
+        "tigan": "Which animal says '嘎嘎' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "dog"
+            },
+            {
+                "code": "B",
+                "text": "cat"
+            },
+            {
+                "code": "C",
+                "text": "duck"
+            },
+            {
+                "code": "D",
+                "text": "pig"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'嘎嘎'的英文是quack quack, 是鸭子的叫声。"
+    }
+    {
+        "_id": "english_004",
+        "tiku": "english",
+        "tigan": "How do you say '猫' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "dog"
+            },
+            {
+                "code": "B",
+                "text": "bird"
+            },
+            {
+                "code": "C",
+                "text": "pig"
+            },
+            {
+                "code": "D",
+                "text": "cat"
+            }
+        ],
+        "answer": "D",
+        "explanation": "'猫'的英文是cat。"
+    }
+    {
+        "_id": "english_005",
+        "tiku": "english",
+        "tigan": "What color is '红色' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "yellow"
+            },
+            {
+                "code": "B",
+                "text": "blue"
+            },
+            {
+                "code": "C",
+                "text": "red"
+            },
+            {
+                "code": "D",
+                "text": "green"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'红色'的英文是red。"
+    }
+    {
+        "_id": "english_006",
+        "tiku": "english",
+        "tigan": "Which word means '开心' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "happy"
+            },
+            {
+                "code": "B",
+                "text": "angry"
+            },
+            {
+                "code": "C",
+                "text": "sad"
+            },
+            {
+                "code": "D",
+                "text": "tired"
+            }
+        ],
+        "answer": "A",
+        "explanation": "'开心'的英文单词是happy。"
+    }
+    {
+        "_id": "english_007",
+        "tiku": "english",
+        "tigan": "What's the opposite of '大' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "tall"
+            },
+            {
+                "code": "B",
+                "text": "long"
+            },
+            {
+                "code": "C",
+                "text": "small"
+            },
+            {
+                "code": "D",
+                "text": "strong"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'大'的反义词是small。"
+    }
+    {
+        "_id": "english_008",
+        "tiku": "english",
+        "tigan": "How do you say '笔' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "book"
+            },
+            {
+                "code": "B",
+                "text": "pen"
+            },
+            {
+                "code": "C",
+                "text": "pencil"
+            },
+            {
+                "code": "D",
+                "text": "eraser"
+            }
+        ],
+        "answer": "B",
+        "explanation": "'笔'的英文是pen。"
+    }
+    {
+        "_id": "english_009",
+        "tiku": "english",
+        "tigan": "Which word means '眼睛' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "nose"
+            },
+            {
+                "code": "B",
+                "text": "mouth"
+            },
+            {
+                "code": "C",
+                "text": "eye"
+            },
+            {
+                "code": "D",
+                "text": "ear"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'眼睛'的英文单词是eye。"
+    }
+    {
+        "_id": "english_010",
+        "tiku": "english",
+        "tigan": "What color is '白色' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "red"
+            },
+            {
+                "code": "B",
+                "text": "black"
+            },
+            {
+                "code": "C",
+                "text": "yellow"
+            },
+            {
+                "code": "D",
+                "text": "white"
+            }
+        ],
+        "answer": "D",
+        "explanation": "'白色'的英文是white。"
+    }
+    {
+        "_id": "english_011",
+        "tiku": "english",
+        "tigan": "What's the opposite of '高' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "long"
+            },
+            {
+                "code": "B",
+                "text": "big"
+            },
+            {
+                "code": "C",
+                "text": "low"
+            },
+            {
+                "code": "D",
+                "text": "wide"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'高'的反义词是low。"
+    }
+    {
+        "_id": "english_012",
+        "tiku": "english",
+        "tigan": "How do you say '桌子' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "chair"
+            },
+            {
+                "code": "B",
+                "text": "desk"
+            },
+            {
+                "code": "C",
+                "text": "table"
+            },
+            {
+                "code": "D",
+                "text": "bed"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'桌子'的英文是table。"
+    }
+    {
+        "_id": "english_013",
+        "tiku": "english",
+        "tigan": "What color is '黑色' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "black"
+            },
+            {
+                "code": "B",
+                "text": "yellow"
+            },
+            {
+                "code": "C",
+                "text": "red"
+            },
+            {
+                "code": "D",
+                "text": "white"
+            }
+        ],
+        "answer": "A",
+        "explanation": "'黑色'的英文是black。"
+    }
+    {
+        "_id": "english_014",
+        "tiku": "english",
+        "tigan": "Which word means '跑' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "sit"
+            },
+            {
+                "code": "B",
+                "text": "walk"
+            },
+            {
+                "code": "C",
+                "text": "run"
+            },
+            {
+                "code": "D",
+                "text": "jump"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'跑'的英文单词是run。"
+    }
+    {
+        "_id": "english_015",
+        "tiku": "english",
+        "tigan": "How do you say '鸡蛋' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "milk"
+            },
+            {
+                "code": "B",
+                "text": "bread"
+            },
+            {
+                "code": "C",
+                "text": "egg"
+            },
+            {
+                "code": "D",
+                "text": "cheese"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'鸡蛋'的英文是egg。"
+    }
+    {
+        "_id": "english_016",
+        "tiku": "english",
+        "tigan": "What's the opposite of '丑' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "beautiful"
+            },
+            {
+                "code": "B",
+                "text": "tall"
+            },
+            {
+                "code": "C",
+                "text": "strong"
+            },
+            {
+                "code": "D",
+                "text": "cute"
+            }
+        ],
+        "answer": "A",
+        "explanation": "'丑'的反义词是beautiful。"
+    }
+    {
+        "_id": "english_017",
+        "tiku": "english",
+        "tigan": "Which word means '笑' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "cry"
+            },
+            {
+                "code": "B",
+                "text": "smile"
+            },
+            {
+                "code": "C",
+                "text": "angry"
+            },
+            {
+                "code": "D",
+                "text": "sad"
+            }
+        ],
+        "answer": "B",
+        "explanation": "'笑'的英文单词是smile。"
+    }
+    {
+        "_id": "english_018",
+        "tiku": "english",
+        "tigan": "What color is '蓝色' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "red"
+            },
+            {
+                "code": "B",
+                "text": "yellow"
+            },
+            {
+                "code": "C",
+                "text": "blue"
+            },
+            {
+                "code": "D",
+                "text": "green"
+            }
+        ],
+        "answer": "C",
+        "explanation": "'蓝色'的英文是blue。"
+    }
+    {
+        "_id": "english_019",
+        "tiku": "english",
+        "tigan": "How do you say '草莓' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "strawberry"
+            },
+            {
+                "code": "B",
+                "text": "apple"
+            },
+            {
+                "code": "C",
+                "text": "pear"
+            },
+            {
+                "code": "D",
+                "text": "grape"
+            }
+        ],
+        "answer": "A",
+        "explanation": "'草莓'的英文是strawberry。"
+    }
+    {
+        "_id": "english_020",
+        "tiku": "english",
+        "tigan": "What's the opposite of '好' in English?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "great"
+            },
+            {
+                "code": "B",
+                "text": "happy"
+            },
+            {
+                "code": "C",
+                "text": "sad"
+            },
+            {
+                "code": "D",
+                "text": "bad"
+            }
+        ],
+        "answer": "D",
+        "explanation": "'好'的反义词是bad。"
+    }

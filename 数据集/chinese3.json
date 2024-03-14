@@ -1,0 +1,501 @@
+
+    {
+        "_id": "chinese_001",
+        "tiku": "chinese",
+        "tigan": "马蜂吃什么?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "花粉"
+            },
+            {
+                "code": "B",
+                "text": "花蜜"
+            },
+            {
+                "code": "C",
+                "text": "树汁"
+            },
+            {
+                "code": "D",
+                "text": "水"
+            }
+        ],
+        "answer": "B",
+        "explanation": "马蜂主要以花蜜为食。"
+    }
+    {
+        "_id": "chinese_002",
+        "tiku": "chinese",
+        "tigan": "中国最晚的四大名著的是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "三国演义"
+            },
+            {
+                "code": "B",
+                "text": "水浒传"
+            },
+            {
+                "code": "C",
+                "text": "西游记"
+            },
+            {
+                "code": "D",
+                "text": "红楼梦"
+            }
+        ],
+        "answer": "D",
+        "explanation": "《红楼梦》是中国最后一本四大名著。"
+    }
+    {
+        "_id": "chinese_003",
+        "tiku": "chinese",
+        "tigan": "我国古代四大发明是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "指南针、火药、造纸、印刷"
+            },
+            {
+                "code": "B",
+                "text": "电灯、电话、电视、电脑"
+            },
+            {
+                "code": "C",
+                "text": "汽车、摩托车、飞机、船"
+            },
+            {
+                "code": "D",
+                "text": "印刷机、收音机、电冰箱、空调"
+            }
+        ],
+        "answer": "A",
+        "explanation": "中国古代四大发明是指南针、火药、造纸和印刷。"
+    }
+    {
+        "_id": "chinese_004",
+        "tiku": "chinese",
+        "tigan": "“敬业乐群”中的“敬业”指的是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "尊重别人"
+            },
+            {
+                "code": "B",
+                "text": "乐于助人"
+            },
+            {
+                "code": "C",
+                "text": "热爱工作"
+            },
+            {
+                "code": "D",
+                "text": "遵纪守法"
+            }
+        ],
+        "answer": "C",
+        "explanation": "“敬业乐群”中的“敬业”指的是热爱自己的工作。"
+    }
+    {
+        "_id": "chinese_005",
+        "tiku": "chinese",
+        "tigan": "我国古代四大美男子是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "韩非子、夏侯婴、貂蝉、西施"
+            },
+            {
+                "code": "B",
+                "text": "范仲淹、岳飞、文天祥、辛弃疾"
+            },
+            {
+                "code": "C",
+                "text": "李白、杜甫、白居易、苏东坡"
+            },
+            {
+                "code": "D",
+                "text": "梁山伯、祝英台、牛郎、织女"
+            }
+        ],
+        "answer": "C",
+        "explanation": "中国古代四大美男子指李白、杜甫、白居易和苏东坡。"
+    }
+    {
+        "_id": "chinese_006",
+        "tiku": "chinese",
+        "tigan": "传统彩灯的主要材料是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "竹子"
+            },
+            {
+                "code": "B",
+                "text": "布"
+            },
+            {
+                "code": "C",
+                "text": "玻璃"
+            },
+            {
+                "code": "D",
+                "text": "塑料"
+            }
+        ],
+        "answer": "C",
+        "explanation": "传统彩灯以玻璃为主要材料。"
+    }
+    {
+        "_id": "chinese_007",
+        "tiku": "chinese",
+        "tigan": "中秋节吃月饼是用来?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "赏月"
+            },
+            {
+                "code": "B",
+                "text": "享受美食"
+            },
+            {
+                "code": "C",
+                "text": "敬神"
+            },
+            {
+                "code": "D",
+                "text": "团聚"
+            }
+        ],
+        "answer": "A",
+        "explanation": "中秋节吃月饼源于中国古代用月饼来赏月的习俗。"
+    }
+    {
+        "_id": "chinese_008",
+        "tiku": "chinese",
+        "tigan": "我国的国鸟是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "画眉"
+            },
+            {
+                "code": "B",
+                "text": "喜鹊"
+            },
+            {
+                "code": "C",
+                "text": "孔雀"
+            },
+            {
+                "code": "D",
+                "text": "朱鹮"
+            }
+        ],
+        "answer": "D",
+        "explanation": "我国的国鸟是朱鹮。"
+    }
+    {
+        "_id": "chinese_009",
+        "tiku": "chinese",
+        "tigan": "传统剪纸最常见的题材是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "动物"
+            },
+            {
+                "code": "B",
+                "text": "植物"
+            },
+            {
+                "code": "C",
+                "text": "山水"
+            },
+            {
+                "code": "D",
+                "text": "人物"
+            }
+        ],
+        "answer": "D",
+        "explanation": "传统剪纸最常见的题材是以人物为主。"
+    }
+    {
+        "_id": "chinese_010",
+        "tiku": "chinese",
+        "tigan": "中国的“竹”通常象征着什么品质?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "刚强"
+            },
+            {
+                "code": "B",
+                "text": "端庄"
+            },
+            {
+                "code": "C",
+                "text": "忠诚"
+            },
+            {
+                "code": "D",
+                "text": "auspicious"
+            }
+        ],
+        "answer": "B",
+        "explanation": "在中国文化中,竹子通常象征着端庄高洁。"
+    }
+    {
+        "_id": "chinese_011",
+        "tiku": "chinese",
+        "tigan": "我国古代四大美女是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "西施、王昭君、貂蝉、杨玉环"
+            },
+            {
+                "code": "B",
+                "text": "林黛玉、薛宝钗、妙玉、元春"
+            },
+            {
+                "code": "C",
+                "text": "花木兰、穆桂英、孙二娘、唐明皇"
+            },
+            {
+                "code": "D",
+                "text": "王祯、潘金莲、杜十娘、贾元春"
+            }
+        ],
+        "answer": "A",
+        "explanation": "中国古代四大美女是西施、王昭君、貂蝉和杨玉环。"
+    }
+    {
+        "_id": "chinese_012",
+        "tiku": "chinese",
+        "tigan": "中国的“梅”通常象征着?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "华美"
+            },
+            {
+                "code": "B",
+                "text": "无私"
+            },
+            {
+                "code": "C",
+                "text": "坚强"
+            },
+            {
+                "code": "D",
+                "text": "高洁"
+            }
+        ],
+        "answer": "C",
+        "explanation": "在中国文化中,梅花通常象征着坚强不屈。"
+    }
+    {
+        "_id": "chinese_013",
+        "tiku": "chinese",
+        "tigan": "我国的国球是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "足球"
+            },
+            {
+                "code": "B",
+                "text": "篮球"
+            },
+            {
+                "code": "C",
+                "text": "乒乓球"
+            },
+            {
+                "code": "D",
+                "text": "高尔夫球"
+            }
+        ],
+        "answer": "C",
+        "explanation": "我国的国球是乒乓球。"
+    }
+    {
+        "_id": "chinese_014",
+        "tiku": "chinese",
+        "tigan": "我国的国技是?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "围棋"
+            },
+            {
+                "code": "B",
+                "text": "国术"
+            },
+            {
+                "code": "C",
+                "text": "摔跤"
+            },
+            {
+                "code": "D",
+                "text": "舞龙舞狮"
+            }
+        ],
+        "answer": "B",
+        "explanation": "中国的国技是国术,包括武术等。"
+    }
+    {
+        "_id": "chinese_015",
+        "tiku": "chinese",
+        "tigan": "端午节吃粽子是为了?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "赶走疫病"
+            },
+            {
+                "code": "B",
+                "text": "祭祀诸神"
+            },
+            {
+                "code": "C",
+                "text": "祈求丰收"
+            },
+            {
+                "code": "D",
+                "text": "纪念诗人"
+            }
+        ],
+        "answer": "B",
+        "explanation": "端午节吃粽子是为了祭祀屈原以及防疫驱邪的习俗。"
+    }
+    {
+        "_id": "chinese_016",
+        "tiku": "chinese",
+        "tigan": "中文里,“福”字一般是由几笔组成的?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "3笔"
+            },
+            {
+                "code": "B",
+                "text": "4笔"
+            },
+            {
+                "code": "C",
+                "text": "5笔"
+            },
+            {
+                "code": "D",
+                "text": "6笔"
+            }
+        ],
+        "answer": "C",
+        "explanation": "中文“福”字一般是由5笔组成的。"
+    }
+    {
+        "_id": "chinese_017",
+        "tiku": "chinese",
+        "tigan": "我国的国画以什么形式著称?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "水墨画"
+            },
+            {
+                "code": "B",
+                "text": "油画"
+            },
+            {
+                "code": "C",
+                "text": "素描"
+            },
+            {
+                "code": "D",
+                "text": "水彩画"
+            }
+        ],
+        "answer": "A",
+        "explanation": "中国国画以水墨画的形式最为著称。"
+    }
+    {
+        "_id": "chinese_018",
+        "tiku": "chinese",
+        "tigan": "中国的“兰”通常象征着?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "发财"
+            },
+            {
+                "code": "B",
+                "text": "吉祥"
+            },
+            {
+                "code": "C",
+                "text": "高洁"
+            },
+            {
+                "code": "D",
+                "text": "繁荣"
+            }
+        ],
+        "answer": "C",
+        "explanation": "在中国文化中,兰花通常象征着高洁品格。"
+    }
+    {
+        "_id": "chinese_019",
+        "tiku": "chinese",
+        "tigan": "中国的“菊”通常象征着?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "繁荣"
+            },
+            {
+                "code": "B",
+                "text": "悲伤"
+            },
+            {
+                "code": "C",
+                "text": "坚强"
+            },
+            {
+                "code": "D",
+                "text": "高洁"
+            }
+        ],
+        "answer": "C",
+        "explanation": "在中国文化中,菊花通常象征着坚强不屈。"
+    }
+    {
+        "_id": "chinese_020",
+        "tiku": "chinese",
+        "tigan": "中国的“松”通常象征着什么?",
+        "xuanxiang": [
+            {
+                "code": "A",
+                "text": "长寿"
+            },
+            {
+                "code": "B",
+                "text": "坚强"
+            },
+            {
+                "code": "C",
+                "text": "吉祥"
+            },
+            {
+                "code": "D",
+                "text": "繁荣"
+            }
+        ],
+        "answer": "B",
+        "explanation": "在中国文化中,松树象征着坚强顽强。"
+    }

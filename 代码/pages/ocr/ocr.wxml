@@ -1,0 +1,14 @@
+<!--pages/ocr/ocr.wxml-->
+<view class="container">
+<view class="container1">
+  <image src="{{tempFilePaths}}" style="width:{{imgwidth}}px; height:{{imgheight}}px;" bindload="imageLoad">
+  </image>
+</view>
+<view class = "option">
+    <view class="inputshow">
+      <scroll-view scroll-y="true"  style="height: 52vh;">
+        <text user-select="true" class="result">{{ocr_result}}</text>
+      </scroll-view>
+    </view>
+  </view>
+</view>

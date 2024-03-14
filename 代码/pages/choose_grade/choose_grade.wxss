@@ -1,0 +1,33 @@
+/* pages/choose_grade/choose_grade.wxss */
+.content1{
+  margin-top: 4vw;
+  /* margin-bottom: 4vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.option{
+  background-color: white;
+  width: 28vw;
+  height: 28vw;
+  padding: 50rpx;
+  /* margin: auto; */
+  text-align: center; 
+  border-radius: 3vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  /* margin-top: 7rpx; */
+  /* box-shadow: 2rpx 2rpx 12rpx 2rpx #79797925; */
+}
+
+.option_text{
+  /* text-shadow:4rpx 4rpx  rgba(140, 195, 240, 0.671); */
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  color:#3d3839;
+  position: sticky;
+  line-height: 28vw;
+  letter-spacing: 2px;
+}

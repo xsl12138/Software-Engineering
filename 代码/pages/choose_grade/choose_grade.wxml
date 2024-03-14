@@ -1,0 +1,27 @@
+<!--pages/choose_grade/choose_grade.wxml-->
+<view class="container">
+<view class = "content1">
+  <view class = "option" bindtap = "to_kemu">
+        <text class="option_text">一年级</text>
+  </view>
+  <view class = "option" bindtap = "to_kemu">
+        <text class="option_text">二年级</text>
+  </view>
+</view>
+<view class = "content1">
+  <view class = "option" bindtap = "to_kemu">
+        <text class="option_text">三年级</text>
+  </view>
+  <view class = "option" bindtap = "to_kemu">
+        <text class="option_text">四年级</text>
+  </view>
+</view>
+<view class = "content1">
+  <view class = "option" bindtap = "to_kemu">
+        <text class="option_text">五年级</text>
+  </view>
+  <view class = "option" bindtap = "to_kemu">
+        <text class="option_text">六年级</text>
+  </view>
+</view>
+</view>

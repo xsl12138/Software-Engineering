@@ -1,0 +1,15 @@
+<view class="container1">
+  <view class="add"></view>
+  <view class="timuqu">
+    <view class="square">
+      <view class="jindu"></view>
+      <scroll-view style="height:20vh; background-color: white; border-radius: 1vh; padding-bottom: 1vh;">
+        <view class="question">恭喜您完成本套题组！</view>
+      </scroll-view>
+    </view>
+    <view class="tijiequ">
+      <button bindtap="gohome" class="tijie">返回首页</button>
+      <button bindtap="gotiku" class="tijie" style="margin-left: 1vw;">再练一套</button>
+    </view>
+  </view>
+</view>

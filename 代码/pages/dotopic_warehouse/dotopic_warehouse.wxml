@@ -1,0 +1,95 @@
+<!--pages/xiaoxue1math/xiaoxue1math.wxml-->
+<view class="container1">
+<view wx:if='{{click_submit==false}}'>
+<!-- <view wx:if='{{click_submit==true}}'> -->
+  <view class="add" >
+    <image wx:if="{{shoucangstatus==false}}" src="/images/收藏.png" style="width: 10vw; margin-left: 78vw;" mode="widthFix" bindtap="shoucang"></image>
+    <image wx:elif="{{shoucangstatus==true}}" src="/images/收藏选中.png" style="width: 10vw; margin-left: 78vw;" mode="widthFix" bindtap="shoucang"></image>
+    <image src="/images/首页-fill.png" style="width: 9vw; margin-left: 0vw; margin-top:0.3vh;" mode="widthFix" bindtap="gohome"></image>
+  </view>
+
+  <view class="timuqu">
+    <view class="square">
+      <view class="jindu"> 
+        <text>第 {{timu_num+1}}/{{total}} 题</text>
+      </view>
+
+      <scroll-view style="height:73vh; background-color: white; border-radius: 1vh; padding-bottom: 1vh;" scroll-y="true">
+        <!-- 这里是题干 -->
+        <view class="question">题目：{{subject.tigan}}</view>
+        <!-- 这里是选项 -->
+        <radio-group bindchange="radioChange">
+          <view wx:for="{{subject.xuanxiang}}" class="option">
+            <radio value="{{item.code}}"  checked="{{isSelect==item.code}}"/>
+            <text>{{item.code}} : {{item.text}}</text>
+          </view>
+        </radio-group>
+      </scroll-view>
+    </view>
+  </view>
+
+  <view class="tijiaoqu">
+    <view class="submit" bindtap="submit">提交答题</view>
+  </view>
+</view>
+
+<!-- 显示答案 -->
+<view wx:elif='{{click_submit==true && click_explanation==false}}'>
+<!-- <view wx:elif='{{click_submit==false && click_explanation==true}}'> -->
+  <view class="add" >
+    <image wx:if="{{shoucangstatus==false}}" src="/images/收藏.png" style="width: 10vw; margin-left: 78vw;" mode="widthFix" bindtap="shoucang"></image>
+    <image wx:elif="{{shoucangstatus==true}}" src="/images/收藏选中.png" style="width: 10vw; margin-left: 78vw;" mode="widthFix" bindtap="shoucang"></image>
+    <image src="/images/首页-fill.png" style="width: 9vw; margin-left: 0vw; margin-top:0.3vh;" mode="widthFix" bindtap="gohome"></image>
+  </view>
+  <view class="timuqu">
+    <view class="square">
+      <view class="jindu"> 
+        <text>第 {{timu_num+1}}/{{total}} 题</text>
+      </view>
+
+      <scroll-view style="height:73vh; background-color: white; border-radius: 1vh; padding-bottom: 1vh;" scroll-y="true">
+        <!-- 这里是题干 -->
+        <view class="question">题目：{{subject.tigan}}</view>
+        <!-- 这里是选项 -->
+        <radio-group bindchange="radioChange">
+          <view wx:for="{{subject.xuanxiang}}" class="{{(item.code == subject.answer)?'option_cor':((item.code == userSelect)?'option_incor':'option')}}">
+            <radio value="{{item.code}}"  checked="{{isSelect==item.code}}"/>
+            <text>{{item.code}} : {{item.text}}</text>
+          </view>
+        </radio-group>
+        <view class="correctAns">
+          <view>正确答案：{{subject.answer}}</view>
+        <view>您的答案：{{userSelect}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="tijiequ">
+    <button bindtap="tijie" class="tijie">查看题解</button>
+    <button bindtap="next" class="tijie" style="margin-left: 1vw;">下一题</button>
+  </view>
+</view>
+<!-- 查看题解 -->
+<view wx:elif='{{click_submit==true && click_explanation==true}}' >
+<!-- <view wx:elif='{{click_submit==false && click_explanation==false}}' > -->
+  <view class="add" >
+    <image wx:if="{{shoucangstatus==false}}" src="/images/收藏.png" style="width: 10vw; margin-left: 78vw;" mode="widthFix" bindtap="shoucang"></image>
+    <image wx:elif="{{shoucangstatus==true}}" src="/images/收藏选中.png" style="width: 10vw; margin-left: 78vw;" mode="widthFix" bindtap="shoucang"></image>
+    <image src="/images/首页-fill.png" style="width: 9vw; margin-left: 0vw; margin-top:0.3vh;" mode="widthFix" bindtap="gohome"></image>
+  </view>
+  <view class="timuqu">
+    <view class="square">
+      <view class="jindu"> 
+        <text>第 {{timu_num+1}}/{{total}} 题</text>
+      </view>
+      <scroll-view style="height:73vh; background-color: white; border-radius: 1vh; padding-bottom: 1vh;" scroll-y="true">
+        <!-- 这里是题干 -->
+        <view class="question">解答：{{subject.explanation}}</view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="tijiaoqu">
+    <button bindtap="goback" class="tijie">返回</button>
+  </view>
+</view>
+</view>

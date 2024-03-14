@@ -1,0 +1,20 @@
+<!--pages/choose_kemu/choose_kemu.wxml-->
+<view class="container">
+<view class = "content1">
+  <view class = "option" bindtap = "timu_math">
+        <image src="数学.png" style="height: 10vw; width: 10vw;"></image>
+        <text class="option_text" style="position: relative; left: 25rpx; top: -3.5vw">数学</text>
+        <text class="right_arrow"></text>
+  </view>
+  <view class = "option" bindtap = "timu_chinese">
+        <image src="语文.png" style="height: 10vw; width: 10vw;"></image>
+        <text class="option_text" style="position: relative; left: 25rpx; top: -3.5vw">语文</text>
+        <text class="right_arrow"></text>
+  </view>
+  <view class = "option" bindtap = "timu_english">
+        <image src="英语.png" style="height: 10vw; width: 10vw;"></image>
+        <text class="option_text" style="position: relative; left: 25rpx; top: -3.5vw">英语</text>
+        <text class="right_arrow"></text>
+  </view>
+</view>
+</view>

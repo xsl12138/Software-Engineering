@@ -1,0 +1,14 @@
+<!--pages/advice/advice.wxml-->
+<view class="container">
+  <view class = "option">
+    <view class="inputshow">
+      <textarea maxlength='500' placeholder-style="color:#5F5F5F;" bindinput='limitWord' value="{{content}}" placeholder='请输入您的意见(最多可以输入500字)'  class="input_area"  style="width: 610rpx; height: 47vh; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+      </textarea>
+      <view style="width: 610rpx; height: 3vh; display: block; box-sizing: border-box">
+        <text style="float: right; color:#5f5f5f;">{{currentWord}}/{{maxWord}}</text>
+      </view>
+    </view>
+  </view>
+  <button bindtap="submit">提交意见
+  </button>
+</view>

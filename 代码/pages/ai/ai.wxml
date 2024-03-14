@@ -1,0 +1,49 @@
+<view class="container1">
+
+<!-- 对话区 -->
+<scroll-view style="height: 90vh;" scroll-y="true" >
+<block wx:for="{{chatList}}">
+  <!-- 机器人 -->
+  <block wx:if="{{userInfo._id != item.userId}}"> 
+    <view class="top-robot">
+      <view style="width: 15vw;">
+        <image class="face" src="{{item.faceImg}}"></image>
+      </view>
+      <view style="width: 80vw;">
+        <view style="width: 80vw; height: 3vh;">
+          <text class="nick">{{item.nickName}}</text>
+        </view>
+        <view>
+          <text class="bot-text">{{item.text}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  <!-- 用户 -->
+  <block wx:if="{{userInfo._id == item.userId}}">
+    <view class="top-user">
+      <view style="width: 79vw;">
+        <view style="width: 80vw; height: 3vh; text-align: right;">
+          <text class="nick">{{item.nickName}}</text>
+        </view>
+        <view style="float:right;">
+          <text class="user-text">{{item.text}}</text>
+        </view>
+      </view>
+      <view style="width: 15vw; margin-left: 1vw;">
+        <image class="face" src="{{item.faceImg}}"></image>
+      </view>
+    </view>
+  </block>
+</block>
+</scroll-view>
+
+<!-- 输入区 -->
+<view class="pub-comment">
+  <view class="pub-left">
+    <input class="pub-input" placeholder="{{plcaceHolder}}" bindinput="getInputValue" value="{{inputValue}}"></input>
+  </view>
+  <view class="pub-button" bindtap="publishChat">发送</view>
+</view>
+
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shenqi_index/shenqi_index",
+    "pages/me/me",
+    "pages/ocr/ocr",
+    "pages/translate_/translate_",
+    "pages/ai/ai",
+    "pages/choose_grade/choose_grade",
+    "pages/choose_kemu/choose_kemu",
+    "pages/dotopic_warehouse/dotopic_warehouse",
+    "pages/choose_errkemu/choose_errkemu",
+    "pages/dotopic_errlist/dotopic_errlist",
+    "pages/jiesuan/jiesuan",
+    "pages/jiesuan_errlist/jiesuan_errlist",
+    "pages/dotopic_collist/dotopic_collist",
+    "pages/advice/advice"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "学途神器",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#ea8f75",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/主页 (1).png",
+      "selectedIconPath": "images/主页.png"
+    }, {
+      "pagePath": "pages/shenqi_index/shenqi_index",
+      "text": "学习神器",
+      "iconPath": "images/功能服务 (1).png",
+      "selectedIconPath": "images/功能服务.png"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/我的.png",
+      "selectedIconPath": "images/我的 (1).png"
+    }]
+  }
+}

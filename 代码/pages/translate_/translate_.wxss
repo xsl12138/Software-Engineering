@@ -1,0 +1,87 @@
+/* pages/translate_/translate_.wxss */
+.content1{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.option{
+  background-color: white;
+  width: 85vw;
+  height: 36vh;
+  padding: 20rpx;
+  margin: auto;
+  text-align: left; 
+  border-radius: 3vh;
+  box-shadow: 2rpx 2rpx 12rpx 2rpx #79797925;
+}
+
+.option_text{
+  font-family: '黑体';
+  font-size: 120%;
+  font-weight: bold;
+  word-spacing: 10rpx;
+  text-align: center;
+}
+
+.input_area{
+  width: 78vw;
+}
+
+.inputshow{
+  height: 25vh;
+  padding: 8px;
+  background-color: white;
+  border:0px solid red;
+  display: block;
+}
+
+.choose_language{
+  height: 5vh;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+  display: block;
+  text-align: center;
+}
+
+
+
+.button_translate{
+  height: 10vh;
+  background-color: beige;
+  border: 5px solid beige;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.mistakes2{
+  margin-top:16rpx;
+  margin-left:16rpx;
+  position: relative;
+}
+
+.language
+{
+    font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    /* font-weight: bold; */
+    color:#3d3839;
+    position: sticky;
+    line-height: 10vw;
+}
+
+.result{
+  height: 32vh;
+  padding: 0px;
+  background-color: white;
+  border:0px solid red;
+  text-align: left; 
+  display: block;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 4vw;
+  letter-spacing: 2px;
+  /* font-weight: bold; */
+  color:#3d3839;
+  position: sticky;
+  line-height: 10vw;
+}

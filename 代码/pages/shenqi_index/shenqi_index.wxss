@@ -1,0 +1,65 @@
+/* pages/shenqi_index/shenqi_index.wxss */
+.content1{
+  margin-top: 45rpx;
+  margin-bottom: 45rpx;
+}
+
+.option{
+  background-color: white;
+  width: 70vw;
+  height: 10vw;
+  padding: 50rpx;
+  border-radius: 3vh;
+  margin-top: 4vh;
+  /* box-shadow: 2rpx 2rpx 12rpx 2rpx #79797925; */
+}
+
+.option_text{
+  /* text-shadow:4rpx 4rpx  rgba(140, 195, 240, 0.671); */
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 5vw;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color:#3d3839;
+  position: sticky;
+  line-height: 10vw;
+  /* word-spacing: 5px; */
+}
+
+.right_arrow
+{
+    margin-top: 14rpx;
+    margin-right: 80rpx;
+    border: solid #ea8f75;
+    border-width: 0 10rpx 10rpx 0;
+    padding: 15rpx;
+    position: absolute;
+    right: 40rpx;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/*模态框*/
+.modal{position:fixed; top:0; right:0; bottom:0; left:0; z-index:1000;}
+.modal-cancel{position:absolute; z-index:2000; top:0; right:0; bottom: 0; left:0; background:rgba(0,0,0,0.3);}
+.bottom-dialog-body{width:100%; position:absolute; z-index:3000; bottom:0; left:0;background:#dfdede;}
+/*动画前初始位置*/
+.bottom-positon{-webkit-transform:translateY(100%);transform:translateY(100%);}
+/* 底部弹出框 */
+.bottom-positon{
+  text-align: center;
+}
+.Mselect{
+  margin-bottom: 20rpx;
+}
+.Mselect view{
+  padding: 26rpx 0;
+  background: #fff;
+}
+.Mselect view:not(:last-of-type){
+  border-bottom: 1px solid #dfdede;
+}
+.Mcancel{
+  background: #fff;
+  padding: 26rpx 0;
+}
